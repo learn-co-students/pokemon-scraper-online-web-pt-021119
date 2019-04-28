@@ -40,6 +40,7 @@ describe "Pokemon" do
     end
   end
 
+=begin
   describe "BONUS" do
 
     before do
@@ -70,5 +71,6 @@ describe "Pokemon" do
       magikarp.alter_hp(0, @db)
       expect(Pokemon.find(2, @db).hp).to eq(0)
     end
-  end
+ end
+=end
 end
